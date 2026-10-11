@@ -498,16 +498,20 @@ footer img {
     }
 
     #donation {
-        max-width: 80vw;
+        width: 70vw;
+        max-height: 70vh;
+        top: 130px;
+        padding-top: none;
     }
 
     #donation h2 {
         max-width: 70vw;
         word-break: break-word;
+        font-size: 22px;
     }
 
     #donation strong {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     footer img {
