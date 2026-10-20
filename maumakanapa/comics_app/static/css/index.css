@@ -260,7 +260,7 @@ html[lang="ukrainian"] #containers h3 {
     justify-content: center;
 }
 
-.webcon {
+.webcon, .labcon {
     background-color: var(--main-background-color);
     border-radius: 22px;
     height: 13em;
@@ -273,7 +273,7 @@ html[lang="ukrainian"] #containers h3 {
     position: relative;
 }
 
-.webcon h1 {
+.webcon h1, .labcon h1 {
     color: white;
     font-weight: 200;
     position: relative;
@@ -306,7 +306,7 @@ html[lang="ukrainian"] .bigcontainer h3 {
     font-size: 35px;
 }
 
-.webcon:hover {
+.webcon:hover, .labcon:hover  {
     transform: scale(1.05);
     box-shadow: var(--main-box-shadow);
 }
@@ -479,33 +479,6 @@ html[lang="russian"] .labcon h2,
 html[lang="ukrainian"] .labcon h2 {
     font-family: "russianlabi", "Labirhin", sans-serif;
     font-size: 25px;
-}
-
-.labcon h1 {
-    color: white;
-    font-weight: 200;
-    position: relative;
-    z-index: 3;
-    margin: 20px;
-    font-size: 28px;
-}
-
-.labcon {
-    background-color: var(--main-background-color);
-    border-radius: 22px;
-    height: 13em;
-    width: 25em;
-    box-shadow: var(--main-box-shadow);
-    margin: 5px;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.5s ease;
-}
-
-.labcon:hover {
-    transform: scale(1.05);
-    box-shadow: var(--main-box-shadow);
-    opacity: 1;
 }
 
 .labcon:hover img {
